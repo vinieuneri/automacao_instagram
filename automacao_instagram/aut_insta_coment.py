@@ -21,13 +21,13 @@ sleep(5)
 campo_usuario = pyautogui.locateCenterOnScreen('campo_usuario.png')
 pyautogui.click(campo_usuario[0], campo_usuario[1], duration=1)
 sleep(1)
-pyautogui.typewrite('bottreino7@gmail.com')
+pyautogui.typewrite('email@gmail.com')
 
 sleep(1)
 pyautogui.hotkey('tab')
 
 sleep(2)
-pyautogui.typewrite('4tnerc)c')
+pyautogui.typewrite('*********')
 
 sleep(0.5)
 pyautogui.move(0,80, duration=1)
